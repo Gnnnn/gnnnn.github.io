@@ -7,9 +7,16 @@ tags: [sample post, readability, test]
 comments: true
 ---
 
-前一段时间重装了系统，配置了固态。所以我累计一年的所有环境，配置都没啦T.T
+前一段时间配了固态，重装了系统，。所以我累计一年的所有环境，配置都没啦T.T
 
-为了以后再出现类似的情况方便，我决定把这次配电脑的过程和Tips记录下来，方便以后查找啦：）
+为了以后再出现类似的情况方便，我决定把这次配电脑的过程和Tips记录下来，方便以后查找：）
+
+##一：java环境
+
+##二：python环境
+
+##三：Linux双系统
+
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
