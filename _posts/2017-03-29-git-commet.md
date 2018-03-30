@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Common Git Command"
+date: 2017-06-22
+excerpt: "In case I fogot.Also,offer help to newbies."
+tags: [list, git]
+comments: true
+---
+
 其实就是5个步骤： 
 进入你的项目的目录下：
 
@@ -10,5 +19,6 @@
 |4     |git remote add origin url  |+your repo weburl           |
 |5     |git push origin maseter    |+your repo weburl           |
 
-##但是记住如果push报了和我一样的错误就可以用pull来解决，在重新push一下就好了.
+## 如果push报错,可以先用pull来解决eror，在重新push一下就好了.
+### git command:
 * git pull origin master --allow-unrelated-histories
