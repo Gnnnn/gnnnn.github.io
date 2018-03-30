@@ -39,19 +39,19 @@ comments: true
 
 * rm
 从工作目录和 Git 代码索引中删除文件
-$ git rm filename
+> $ git rm filename
 
 * status
 查看目前工作目录的代码状态，自上次提交以来的添加、修改和删除等
-$ git status
+> $ git status
 
 * diff
 查看自上次提交以来，本地代码改动的具体情况
-$ git diff
+> $ git diff
 
 * commit
 提交修改的代码（只是提交到本地的代码库，不会推送到服务器）
-$ git commit -m '修改说明'
+> $ git commit -m '修改说明'
 
 * push
 local commit history->remote.将自上次 push 以来的，本地历次 commit，推送到服务器
@@ -79,8 +79,8 @@ remote->local.将服务器上的代码拉到本地。
 > $ git branch -d 欲删除的分支名
 ###【注意！】不要把 ‘-d’ 写成了 ‘-D’，危险！
 
-#### -d：要求：被删除分支的所有修改，已经合并到当前分支；
-#### -D：直接删除，未合并的代码，将被丢弃！
+-d：要求：被删除分支的所有修改，已经合并到当前分支；
+-D：直接删除，未合并的代码，将被丢弃！
 
 * checkout
 恢复某个已修改的文件（撤销未提交的修改）：
@@ -132,11 +132,12 @@ $ git push origin master:your-id
 
 冲突的文件会有类似下面的代码块：
 
-<<<<HEAD 
+"<<<<HEAD 
 你修改的代码 
 ============
  其他人修改的代码 
->>>>>commit id of others'
+>>>>>commit id of others'"
+
 考虑你和他人对代码的修改，更新成合适的内容，并删除 <<<、===、>>> 3行标记符号，保存文件。
 
 
